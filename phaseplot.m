@@ -38,16 +38,3 @@ set(gca, 'YTick', yticks, 'YTickLabel', yticklabels, 'YDir', 'normal')
 colormap jet;
 colorbar;
 savefig('modularity_Qr')
-% Aspect ratio of infection network
-figure(4);
-imagesc(asp);
-xlabel('pV'); ylabel('pH');
-xticklabels = 0:0.1:1;
-xticks = linspace(1, size(ierat, 2), numel(xticklabels));
-set(gca, 'XTick', xticks, 'XTickLabel', xticklabels)
-yticklabels = 0:0.1:1;
-yticks = linspace(1, size(ierat, 1), numel(yticklabels));
-set(gca, 'YTick', yticks, 'YTickLabel', yticklabels, 'YDir', 'normal')
-colormap jet;
-colorbar;
-savefig('aspect_ratio')

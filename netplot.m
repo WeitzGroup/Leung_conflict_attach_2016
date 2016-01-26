@@ -1,15 +1,13 @@
 %% Plotting the network
 % Original matrix
 figure(1); 
-%set(gcf,'Position',[0 72 1751 922]);
 bp.plotter.font_size = 2.0;
 bp.plotter.PlotMatrix();
 savefig('matrix')
 % Nested matrix
 figure(2); 
-%set(gcf,'Position',[0+50 72 932 922]);
-bp.plotter.use_isocline = true;
-bp.plotter.isocline_color = 'red';
+bp.plotter.use_isocline = false;
+%bp.plotter.isocline_color = 'red';
 bp.plotter.PlotNestedMatrix(); 
 savefig('nest_matrix')
 % Plot modular network
