@@ -12,4 +12,5 @@ Sample network sizes n uniformly from nmin to nmax, generate an ensemble of netw
 Note: network analysis is carried out using the BiMat MATLAB library (https://bimat.github.io/) developed by Cesar Flores et al which needs to be downloaded and placed in the same directory.
 
 Reference: 
-Chung Yin (Joey) Leung and Joshua S. Weitz, 2015, Conflicting Attachment and the Growth of Bipartite Networks, in prep.
+Chung Yin (Joey) Leung and Joshua S. Weitz, Conflicting Attachment and the Growth of Bipartite Networks, Phys. Rev. E 93, 032303 (2016).
+DOI: https://doi.org/10.1103/PhysRevE.93.032303
